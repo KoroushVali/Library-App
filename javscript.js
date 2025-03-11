@@ -71,7 +71,7 @@ function createBookCard(book) {
     bookReadButton.classList.add("read-button");
     bookReadButton.textContent = "Read";
   } else {
-    bookReadButton.classList.add("read-button");
+    bookReadButton.classList.add("unread-button");
     bookReadButton.textContent = "Unread";
   }
   bookReadButton.addEventListener("click", () => {
