@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Simple Library App</h1>
+      <button class="add-book-btn">New Book</button>
+			<button class="add-testbook">New Sample Book</button>
+    </div>
+		
+		<div class="books-container">
+			
+		</div>
+
+    <dialog>
+      <form action="" id="form">
+				<div class="add-book-popup-header">
+					<h3>Add a new book</h2>
+					<button class="add-book-close-btn" type="button">&times;</button>
+				</div>
+        <input type="text" placeholder="Title" id="book-title" required />
+        <input type="text" placeholder="Author" id="book-author" required />
+        <input type="number" placeholder="Pages" id="book-pages" required />
+        <div>
+        	<input type="checkbox" id="book-read-already"/>
+          <label for="read">I have read this book.</label>
+        </div>
+				<button>Add</button>
+      </form>
+    </dialog>
+    <script src="javscript.js"></script>
+  </body>
+</html>
